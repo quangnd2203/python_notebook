@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "note-book"
+version = "0.1.0"
+description = ""
+authors = ["quangnd <quangnd.nta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.8"
+langchain-openai = "^0.1.16"
+langchain-community = "^0.2.7"
+opencv-python = "^4.10.0.84"
+matplotlib = "^3.9.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
